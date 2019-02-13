@@ -123,12 +123,12 @@ body{
 }
 
 audio{
-  	width: 80px;
+  	width: 100px;
 	transform: scale(0.7) translateY(50%) translateX(10%);
 }
 
 nav{
-	padding-left: 18%;
+	padding-left: 10%;
 
 }
 }
@@ -140,7 +140,18 @@ body.{
 
 }
 nav{
-	padding-left: 18%;
+	padding-left: 10%;
+}
+
+.audio_list{
+	padding-left: 10px;
+	margin-top: 20px;
+	list-style: none;
+}
+
+audio{
+  	width: 80px;
+	transform: scale(0.7) translateY(50%) translateX(10%);
 }
 }
 
