@@ -104,13 +104,13 @@ a:hover{
 nav{
 	padding-left: 5%;
 }
-
+}
 @media only screen and (max-width:1000px) {
 body{ 
 	margin-left: 10%
 	margin-right:10%;
 }
-
+}
 
 @media only screen and (max-width:800px) {
   /* For mobile phones: */
@@ -132,6 +132,11 @@ audio{
 nav{
 	padding-left: 10%;
 }
+}
+@media only screen and (max-width:500px){
 
-
+nav{
+	padding-left: 4%;
+}
+}
 
