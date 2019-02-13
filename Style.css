@@ -27,13 +27,13 @@ h2{
 nav {
 	float: left;
 	line-height: 1.2;
+	padding-left:20%; 
 }
 
 .about{
 	list-style: none;
 	font-size: 15px;
 	margin-top: 15px;
-	padding-left: 200px;
 }
 
 h3 {
@@ -51,8 +51,7 @@ h4{
 }
 
 .audio_list{
-	padding-left: -20px;
-	margin-top: -40px;
+	padding-left: 1%;
 	list-style: none;
 }
 
@@ -64,7 +63,7 @@ section:after {
 
 
 audio{
-	transform: scale(0.8) translateY(50%);
+	transform: scale(0.8) translateY(50%) translateX(10%);
 }
 
 
@@ -87,44 +86,36 @@ a:hover{
 	font-weight: bold;
 }
 
-@media only screen and (max-width:1330px) {
+@media only screen and (max-width:1300px) {
   /* For mobile phones: */
- body{
-  	margin-left: 28%;
-  	margin-right: 28%;
-  }
-
-.about{
-	padding-left: 110px;
-}
-.audio_list{
-	padding-left: 15px;
-	margin-top: -40px;
-	list-style: none;
+  audio{
+  	width: 150px;
+	transform: scale(0.7) translateY(50%) translateX(10%);
 }
 
- audio{
-	transform: scale(0.7) translateY(80%);
+nav{
+	padding-left: 5%;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:1000px) {
+body{ 
+	margin-left: 10%
+	margin-right:10%;
+}
+
+
+@media only screen and (max-width:800px) {
   /* For mobile phones: */
  body{
   	margin-left: 4%;
   	margin-right: 4%;
   }
 
-.about{
-	padding-left: 110px;
-}
 .audio_list{
 	padding-left: 15px;
 	margin-top: -40px;
 	list-style: none;
 }
 
- audio{
-	transform: scale(0.5) translateY(80%);
-}
 
 
