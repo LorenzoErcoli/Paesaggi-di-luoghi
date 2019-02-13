@@ -26,8 +26,8 @@ h2{
 
 nav {
 	float: left;
-	line-height: 1.2;
-	padding-left:23%; 
+	line-height: 1.4;
+	padding-left:150px; 
 }
 
 ul{margin: 0px;}
@@ -36,17 +36,21 @@ ul{margin: 0px;}
 .about{
 	list-style: none;
 	font-size: 20px;
-	margin-top: 15px;
+	margin-top: 20px;
 	padding-left: 0;
-	line-height: 1.3;
+	line-height: 1.4;
+}
+
+.bold{
+	font-weight: bold;
 }
 
 h3 {
 	float: left;
 	font-weight: normal;
-	font-size: 20px;
-	margin-top: 15px;
-	line-height: 1.3;
+	font-size: 15px;
+	margin-top: 20px;
+	line-height: 1.8;
 	margin-right: 0;
 }
 
@@ -54,7 +58,7 @@ h3 {
 h4{
 	font-weight: normal;
 	font-size: 18px;
-	margin-top: 30px;
+	margin-top: 60px;
 	margin-bottom: -10px;
 }
 span{
@@ -84,12 +88,13 @@ audio{
 	font-size: 35px;
 }
 
-a{
+a {
 	color: black;
 	text-decoration-line: none;
 }
 
 a:hover{
+	text-decoration-line: none;
 	color: gray;
 }
 
@@ -106,7 +111,7 @@ a:hover{
 }
 
 nav{
-	padding-left: 20%;
+	padding-left: 150px;
 }
 }
 
@@ -128,7 +133,7 @@ audio{
 }
 
 nav{
-	padding-left: 12%;
+	padding-left: 70px;
 
 }
 }
