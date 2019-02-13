@@ -27,13 +27,20 @@ h2{
 nav {
 	float: left;
 	line-height: 1.2;
-	padding-left:20%; 
+	padding-left:35%; 
+}
+
+ul{margin: 0px;}
+
+li{
+	margin; 0%;
 }
 
 .about{
 	list-style: none;
 	font-size: 15px;
 	margin-top: 15px;
+	padding-left: 0;
 }
 
 h3 {
@@ -42,6 +49,7 @@ h3 {
 	font-size: 15px;
 	margin-top: 15px;
 	line-height: 1.2;
+	margin-right: 0;
 }
 
 
@@ -111,7 +119,7 @@ body{
   }
 
 .audio_list{
-	padding-left: 15px;
+	padding-left: 10px;
 	margin-top: -40px;
 	list-style: none;
 }
@@ -119,6 +127,10 @@ body{
 audio{
   	width: 80px;
 	transform: scale(0.7) translateY(50%) translateX(10%);
+}
+
+nav{
+	padding-left: 10%;
 }
 
 
