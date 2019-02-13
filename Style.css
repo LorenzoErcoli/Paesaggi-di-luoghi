@@ -54,6 +54,8 @@ h3 {
 h4{
 	font-weight: normal;
 	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: -10px;
 }
 span{
 	padding: 0;
@@ -107,14 +109,8 @@ nav{
 	padding-left: 20%;
 }
 }
-@media only screen and (max-width:1000px) {
-body{ 
-	margin-left: 10%
-	margin-right:10%;
-}
-}
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:900px) {
   /* For mobile phones: */
  body{
   	margin-left: 10%;
@@ -123,7 +119,6 @@ body{
 
 .audio_list{
 	padding-left: 10px;
-	margin-top: -40px;
 	list-style: none;
 }
 
@@ -137,15 +132,20 @@ nav{
 
 }
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:550px){
 
 body{ 
 	margin-left: 4%;
   	margin-right: 4%;
 
 }
+
+
 nav{
-	padding-left: 10%;
+	padding-left: 0%;
+	content: "";
+  display: table;
+  clear: both;
 }
 
 .audio_list{
@@ -154,6 +154,8 @@ nav{
 	margin-top: 10px;
 	list-style: none;
 }
+
+
 
 audio{
   	width: 80px;
