@@ -87,15 +87,33 @@ a:hover{
 	font-weight: bold;
 }
 
+@media only screen and (max-width:1330px) {
+  /* For mobile phones: */
+ body{
+  	margin-left: 28%;
+  	margin-right: 28%;
+  }
+
+.about{
+	padding-left: 110px;
+}
+.audio_list{
+	padding-left: 15px;
+	margin-top: -40px;
+	list-style: none;
+}
+
+ audio{
+	transform: scale(0.7) translateY(80%);
+}
+
 @media only screen and (max-width:600px) {
   /* For mobile phones: */
  body{
   	margin-left: 4%;
   	margin-right: 4%;
   }
-h1{
-	font-size: 100px;
-}
+
 .about{
 	padding-left: 110px;
 }
