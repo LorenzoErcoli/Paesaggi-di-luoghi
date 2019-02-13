@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: 'Helvetic,neve', sans-serif;
+}
+
+h1{
+	margin-top: 10px;
+	margin-bottom: -10px;
+	font-size: 30px
+}
+
+h2{
+	font-size: 27.5px;
+	margin-bottom: -10px;
+		letter-spacing: -0.29px;
+}
+
+.mobile .touch{
+	font-size: 16px;
+}
+
+.mobile{
+	padding-top: 0px;
+	margin-top: 9px;
+}
+
+.touch{
+	font-size: 16px;
+	position: fixed;
+	top: 45%;
+	left: 50%;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: -26px;
+	margin-top: 0px;
+	padding-top: 231px;
+}
+
+table {
+	font-size: 50px;
+	margin-top: 25px;
+}
+
+th{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+table{
+	font-size: 32px
+}
+
+.img {
+	padding: 0px;
+	width: 65px;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: 5px;
+	
+}
+
+.text_ab{
+	width: 360px;
+	font-size: 50px;
+}
