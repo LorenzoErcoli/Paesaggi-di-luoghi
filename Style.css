@@ -146,6 +146,10 @@ body{
 }
 
 
+h3{
+	margin-top: 10px;
+}
+
 nav{
 	padding-left: 0%;
 	content: "";
