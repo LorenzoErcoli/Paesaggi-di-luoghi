@@ -87,16 +87,15 @@ a:hover{
 	font-weight: bold;
 }
 
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-}
 @media only screen and (max-width:600px) {
   /* For mobile phones: */
  body{
   	margin-left: 4%;
   	margin-right: 4%;
   }
-
+h1{
+	font-size: 100px;
+}
 .about{
 	padding-left: 110px;
 }
