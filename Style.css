@@ -26,25 +26,26 @@ h2{
 
 nav {
 	float: left;
-	padding-top: 00px;
+	line-height: 1.2;
 }
 
 .about{
 	list-style: none;
-	margin-top: 18px;
-	padding-left:: 10px;
+	font-size: 15px;
+	margin-top: 15px;
+	padding-left: 200px;
 }
 
 h3 {
 	float: left;
 	font-weight: normal;
-	font-size: 18px;
-	margin-top: 18px;
+	font-size: 15px;
+	margin-top: 15px;
+	line-height: 1.2;
 }
 
 
 h4{
-	padding-top: 20px;
 	font-weight: normal;
 	font-size: 18px;
 }
@@ -65,3 +66,48 @@ section:after {
 audio{
 	transform: scale(0.8) translateY(50%);
 }
+
+
+.cit{
+	margin-top: 15px;
+	font-size: 35px;
+}
+
+a{
+	color: black;
+	text-decoration-line: none;
+}
+
+a:hover{
+	color: gray;
+}
+
+
+.name{
+	font-weight: bold;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+}
+@media only screen and (max-width:600px) {
+  /* For mobile phones: */
+ body{
+  	margin-left: 4%;
+  	margin-right: 4%;
+  }
+
+.about{
+	padding-left: 110px;
+}
+.audio_list{
+	padding-left: 15px;
+	margin-top: -40px;
+	list-style: none;
+}
+
+ audio{
+	transform: scale(0.5) translateY(80%);
+}
+
+
