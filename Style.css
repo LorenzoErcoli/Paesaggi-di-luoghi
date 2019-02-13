@@ -32,9 +32,6 @@ nav {
 
 ul{margin: 0px;}
 
-li{
-	margin; 0%;
-}
 
 .about{
 	list-style: none;
@@ -131,7 +128,7 @@ audio{
 }
 
 nav{
-	padding-left: 10%;
+	padding-left: 15%;
 
 }
 }
@@ -143,7 +140,7 @@ body.{
 
 }
 nav{
-	padding-left: 7%;
+	padding-left: 15%;
 }
 }
 
