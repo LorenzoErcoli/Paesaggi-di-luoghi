@@ -107,14 +107,18 @@ body{
 @media only screen and (max-width:800px) {
   /* For mobile phones: */
  body{
-  	margin-left: 4%;
-  	margin-right: 4%;
+  	margin-left: 10%;
   }
 
 .audio_list{
 	padding-left: 15px;
 	margin-top: -40px;
 	list-style: none;
+}
+
+audio{
+  	width: 80px;
+	transform: scale(0.7) translateY(50%) translateX(10%);
 }
 
 
