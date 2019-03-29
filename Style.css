@@ -6,7 +6,7 @@
 
 body{
 	font-family: "Helvetica Neue", Helvetica, Arial;
-	margin-left: 33%;
+	margin-left: 31%;
 	margin-right: 10%;
 
 }
@@ -43,6 +43,12 @@ ul{margin: 0px;}
 
 .bold{
 	font-weight: bold;
+}
+
+.text_2{
+	width: 60%;
+	margin-bottom: 10%;
+	
 }
 
 h3 {
