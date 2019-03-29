@@ -65,7 +65,7 @@ h4{
 	font-weight: normal;
 	font-size: 18px;
 	margin-top: 60px;
-	margin-bottom: -10px;
+	margin-bottom: 5px;
 }
 span{
 	padding: 0;
@@ -85,7 +85,10 @@ section:after {
 
 
 audio{
-	transform: scale(0.8) translateY(50%) translateX(10%);
+	width: 300px;
+	height: 40px;
+	transform: scale(0.8) translateY(30%) translateX(10%);
+	-webkit-transform: scale(0.8) translateY(30%) translateX(10%)
 }
 
 
@@ -114,8 +117,8 @@ a:hover{
 @media only screen and (max-width:1300px) {
   /* For mobile phones: */
   audio{
-  	width: 300px;
-	transform: scale(0.7) translateY(50%) translateX(10%);
+	transform: scale(0.8) translateY(35%) translateX(10%);
+	-webkit-transform: scale(0.7) translateY(35%) translateX(10%)
 }
 
 nav{
@@ -137,7 +140,6 @@ nav{
 
 audio{
   	width: 180px;
-	transform: scale(0.7) translateY(50%) translateX(10%);
 }
 
 nav{
@@ -179,7 +181,6 @@ nav{
 
 audio{
   	width: 80px;
-	transform: scale(0.7) translateY(50%) translateX(10%);
 }
 }
 
