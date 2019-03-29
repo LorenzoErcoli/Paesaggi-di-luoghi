@@ -34,6 +34,7 @@ ul{margin: 0px;}
 
 
 .about{
+	font-weight: bold;
 	list-style: none;
 	font-size: 20px;
 	margin-top: 20px;
@@ -42,6 +43,10 @@ ul{margin: 0px;}
 }
 
 .bold{
+}
+
+.epub{
+	font-size: 15px;
 	font-weight: bold;
 }
 
@@ -49,8 +54,8 @@ h3 {
 	float: left;
 	font-weight: normal;
 	font-size: 15px;
-	margin-top: 20px;
-	line-height: 1.8;
+	margin-top: 23px;
+	line-height: 1.5;
 	margin-right: 0;
 }
 
@@ -58,7 +63,7 @@ h3 {
 h4{
 	font-weight: normal;
 	font-size: 18px;
-	margin-top: 60px;
+	margin-top: 35px;
 	margin-bottom: 5px;
 }
 span{
@@ -150,7 +155,7 @@ nav{
 
 }
 }
-@media only screen and (max-width:550px){
+@media only screen and (max-width:580px){
 
 body{ 
 	margin-left: 4%;
