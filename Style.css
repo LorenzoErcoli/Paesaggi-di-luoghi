@@ -96,10 +96,12 @@ audio{
 
 a {
 	color: black;
+	-webkit-text-decoration-line: none;
 	text-decoration-line: none;
 }
 
 a:hover{
+	-webkit-text-decoration-line: none;
 	text-decoration-line: none;
 	color: gray;
 }
