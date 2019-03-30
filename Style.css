@@ -113,9 +113,12 @@ a:hover{
 }
 
 
-.name{
+.name, 
+.email{
 	font-weight: bold;
 }
+
+
 
 @media only screen and (max-width:1300px) {
 
